@@ -1,7 +1,7 @@
-FROM ubuntu:14.10
+FROM phusion/baseimage:0.9.17
 MAINTAINER Travis Vignon <travis@lookitsatravis.com>
 
-ENV RUBY_VERSION 2.2.3
+ENV RUBY_VERSION 2.3.0
 ENV DEBIAN_FRONTEND noninteractive
 RUN locale-gen en_US.UTF-8
 ENV LANG en_US.UTF-8

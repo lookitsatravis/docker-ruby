@@ -25,3 +25,7 @@ In your Dockerfile reference the prebuilt image as the base
 ## License
 
 MIT
+
+## Copyright
+
+© 2015-2016

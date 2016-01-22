@@ -1,4 +1,4 @@
-FROM phusion/baseimage:0.9.17
+FROM phusion/baseimage:0.9.18
 MAINTAINER Travis Vignon <travis@lookitsatravis.com>
 
 ENV RUBY_VERSION 2.3.0

@@ -28,4 +28,4 @@ MIT
 
 ## Copyright
 
-© 2015-2016
+© 2015-2016 Travis Vignon

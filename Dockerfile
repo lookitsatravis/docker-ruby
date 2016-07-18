@@ -1,4 +1,4 @@
-FROM lookitsatravis/docker-base:1.0.1
+FROM lookitsatravis/docker-base:1.0.2
 MAINTAINER Travis Vignon <travis@lookitsatravis.com>
 
 ENV RUBY_VERSION 2.3.1

@@ -1,8 +1,8 @@
 FROM lookitsatravis/docker-base:1.0.2
 MAINTAINER Travis Vignon <travis@lookitsatravis.com>
 
-ENV RUBY_VERSION 2.3.1
-ENV NODE_VERSION 6.3.0
+ENV RUBY_VERSION 2.3.3
+ENV NODE_VERSION 6.9.1
 
 # Node/NPM
 # gpg keys listed at https://github.com/nodejs/node

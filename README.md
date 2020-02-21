@@ -1,6 +1,6 @@
 # Ruby
 
-Docker image to build Ruby using ruby-build. Defaults to 2.5.0 using the $RUBY_VERSION env variable.
+Docker image to build Ruby using ruby-build. Defaults to 2.7.0 using the $RUBY_VERSION env variable.
 
 Installs bundler and common system dependencies for gems.
 
@@ -14,13 +14,13 @@ The image builds Ruby using an ONBUILD command so the actual install of Ruby is 
 
 In your Dockerfile reference the prebuilt image as the base
 
-		FROM lookitsatravis/ruby:2.5.0
+		FROM lookitsatravis/ruby:2.7.0
 
 ### To build the image
 
 		$ git clone https://github.com/lookitsatravis/docker-ruby.git
 		$ cd docker-ruby
-		$ docker build -t ruby:2.5.0 .
+		$ docker build -t ruby:2.7.0 .
 
 ## License
 
